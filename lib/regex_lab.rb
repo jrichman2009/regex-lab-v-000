@@ -1,8 +1,7 @@
 def starts_with_a_vowel?(word)
-word.each do |test|
-  if test.scan(/^[aeiou]/)
+
+if test.scan(/^[aeiou]/)
     return true
-  end
 end
 
 end
