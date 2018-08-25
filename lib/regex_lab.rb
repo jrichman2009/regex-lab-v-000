@@ -1,7 +1,7 @@
 def starts_with_a_vowel?(word)
 match = ["afoot Excellent incredible Absolute unreal Inconceivable octopus"]
 match.each do |word|
-  if word.scan(^[aeiou])
+  if word.scan(/^[aeiou]/)
 
 end
 
